@@ -1,0 +1,35 @@
+
+Call:
+lm(formula = 만족감 ~ 외관 + 편의성 + 유용성, data = data)
+
+Residuals:
+    Min      1Q  Median 
+-0.9565 -0.4136 -0.1178 
+     3Q     Max 
+ 0.3998  1.7643 
+
+Coefficients:
+            Estimate
+(Intercept)  3.51360
+외관         0.26943
+편의성       0.21052
+유용성       0.16232
+            Std. Error t value
+(Intercept)    0.07001  50.185
+외관           0.07471   3.606
+편의성         0.07488   2.812
+유용성         0.07633   2.127
+            Pr(>|t|)    
+(Intercept)  < 2e-16 ***
+외관        0.000553 ***
+편의성      0.006269 ** 
+유용성      0.036707 *  
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’
+  0.01 ‘*’ 0.05 ‘.’ 0.1  ‘ ’ 1
+
+Residual standard error: 0.6159 on 76 degrees of freedom
+Multiple R-squared:  0.3732,	Adjusted R-squared:  0.3485 
+F-statistic: 15.08 on 3 and 76 DF,  p-value: 8.555e-08
+

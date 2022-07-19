@@ -1,5 +1,5 @@
 getwd()
-setwd('C:/Users/dnflc/Desktop/데이터 분석을 위한 R 프로그래밍')
+setwd('C:/Users/dnflc/Desktop/데이터_분석을_위한_R_프로그래밍')
 
 install.packages('dplyr')
 install.packages('ggplot2')
@@ -32,4 +32,3 @@ cars %>%
 # 기어(자동/수동), 연비, 배기량 간 관계
 library(GGally)
 ggpairs(cars, columns=c('mpg', 'disp', 'am'), title='correlation matrix')   # 두개씩 묶어서 3가지의 관련성을 찾음
-

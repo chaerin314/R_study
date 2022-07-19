@@ -1,12 +1,10 @@
-
 getwd()
-setwd('C:/Users/dnflc/Desktop/데이터 분석을 위한 R 프로그래밍')
+setwd('C:/Users/dnflc/Desktop/데이터_분석을_위한_R_프로그래밍')
 
 install.packages('psych') # 패키지를 설치하는 함수
 library(psych)
 
 # 데이터 입력하기
-
 scores <- c(63,87,92,77,100)
 mode(scores)
 
@@ -75,6 +73,5 @@ abline(model) # 선 추가
 # 선도표
 plot(cars$speed, cars$dist, type='l')
 
-
+# 함수를 모를 때
 ?plot # 내장함수 아니면 ??로
-#55페이지부터 시작!
